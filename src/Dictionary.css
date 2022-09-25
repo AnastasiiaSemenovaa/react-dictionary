@@ -3,6 +3,7 @@
 }
 .Meaning {
   color: black;
+  line-height: 1.5;
 }
 .Definitions {
   color: brown;
@@ -48,4 +49,9 @@
 }
 .SynonymWords {
   word-spacing: normal;
+}
+.Example {
+  opacity: 0.8;
+  position: relative;
+  top: -10px;
 }
