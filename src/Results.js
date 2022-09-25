@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Meaning from "./Meaning";
 import Phonetic from "./Phonetic";
 
@@ -8,6 +8,8 @@ export default function Results(props) {
       <div className="Results">
         <h2 className="Word">{props.results.word}</h2>
         {props.results.phonetics.map(function (phonetic, index) {
+          console.log({ indexPhonetic: index });
+          if (index >= 1) return <Fragment />;
           return (
             <div key={index}>
               <Phonetic phonetic={phonetic} />
@@ -15,6 +17,9 @@ export default function Results(props) {
           );
         })}
         {props.results.meanings.map(function (meaning, index) {
+          console.log({ indexMeanings: index });
+
+          if (index >= 4) return <Fragment />;
           return (
             <div key={index}>
               <Meaning meaning={meaning} />

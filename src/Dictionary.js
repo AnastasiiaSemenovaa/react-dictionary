@@ -25,7 +25,7 @@ export default function Dictionary() {
         <form onSubmit={Search}>
           <input
             type="Search"
-            autoFocus="on"
+            autoFocus="off"
             placeholder="Type it here please"
             onChange={findWord}
           ></input>
