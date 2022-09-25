@@ -6,16 +6,18 @@
 }
 .Definitions {
   color: brown;
+  padding: 15px;
 }
 .Word {
   font-size: 30px;
   line-height: 2px;
+  font-weight: 900;
 }
 .Dictionary section {
   background: white;
   padding: 40px;
   border-radius: 6px;
-  margin: 25px;
+  margin: 50px 150px;
   box-shadow: 0 0 8px rgb(232, 113, 208);
 }
 .Dictionary input {
@@ -28,12 +30,22 @@
   border-radius: 8px;
   border: 1px solid rgb(160, 156, 156);
   color: purple;
-  padding: 3px;
+  padding: 5px;
 }
 .Phonetic a:hover {
   background: purple;
   color: wheat;
 }
 .Phonetic {
-  height: 35px;
+  height: 70px;
+}
+.PartOfSpeech {
+  border: 1px solid grey;
+  text-align: center;
+  display: inline-block;
+  padding: 7px 20px;
+  margin-bottom: -5px;
+}
+.SynonymWords {
+  word-spacing: normal;
 }
