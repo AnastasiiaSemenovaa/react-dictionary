@@ -21,14 +21,16 @@ export default function Dictionary() {
   return (
     <div className="Dictionary">
       <h1>What word are you looking for?</h1>
-      <form onSubmit={Search}>
-        <input
-          type="Search"
-          autoFocus="on"
-          placeholder="Type it here please"
-          onChange={findWord}
-        ></input>
-      </form>
+      <section>
+        <form onSubmit={Search}>
+          <input
+            type="Search"
+            autoFocus="on"
+            placeholder="Type it here please"
+            onChange={findWord}
+          ></input>
+        </form>
+      </section>
       <Results results={results} />
     </div>
   );
