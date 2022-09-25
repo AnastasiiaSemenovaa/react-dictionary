@@ -1,0 +1,16 @@
+.Dictionary {
+  text-align: center;
+}
+.Results {
+  color: rgb(245, 32, 156);
+}
+.Meaning {
+  color: black;
+}
+.Definitions {
+  color: brown;
+}
+.Word {
+  font-size: 30px;
+  border: 1px solid grey;
+}
