@@ -13,14 +13,14 @@
 }
 .Dictionary section {
   background: white;
-  padding: 30px;
+  padding: 40px;
   border-radius: 6px;
   margin: 25px;
   box-shadow: 0 0 8px rgb(232, 113, 208);
 }
 .Dictionary input {
   width: 100%;
-  padding: 15px;
+  padding: 10px;
 }
 .Phonetic a {
   font-size: 15px;
