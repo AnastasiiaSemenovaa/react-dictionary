@@ -2,4 +2,5 @@
   text-align: center;
   background: rgb(188, 188, 253);
   margin: 10px;
+  min-height: 100vh;
 }

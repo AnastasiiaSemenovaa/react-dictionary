@@ -7,7 +7,6 @@
 }
 .Definitions {
   color: brown;
-  padding: 15px;
 }
 .Word {
   font-size: 30px;
@@ -48,7 +47,7 @@
   margin-bottom: -5px;
 }
 .SynonymWords {
-  word-spacing: normal;
+  margin: 0 10px;
 }
 .Example {
   opacity: 0.8;
