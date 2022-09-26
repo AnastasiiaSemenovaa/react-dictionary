@@ -3,7 +3,7 @@
 }
 .Meaning {
   color: black;
-  line-height: 1.5;
+  line-height: 1;
 }
 .Definitions {
   color: brown;
@@ -55,6 +55,7 @@
 }
 .SynonymWords {
   margin: 0 10px;
+  line-height: 1.5;
 }
 .Example {
   position: relative;

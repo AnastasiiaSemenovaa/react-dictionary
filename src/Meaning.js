@@ -5,7 +5,8 @@ export default function Meaning(props) {
   return (
     <div className="Meaning">
       {" "}
-      {props.meaning.synonyms.map((values) => {
+      {props.meaning.synonyms.map((values, index) => {
+        if (index > 6) return <></>;
         return <span className="SynonymWords">{values}</span>;
       })}
       <br />
@@ -14,12 +15,12 @@ export default function Meaning(props) {
         if (index > 2) return <></>;
         return (
           <div key={index}>
-            <p className="Definitions">
+            <div className="Definitions">
               <strong>Definition➡️ </strong>
               {definition.definition}
               <br />
               <p className="Example">{definition.example} </p>
-            </p>
+            </div>
           </div>
         );
       })}
