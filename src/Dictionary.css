@@ -1,21 +1,23 @@
 .Results {
-  color: rgb(245, 32, 156);
+  color: rgb(250, 22, 220);
 }
 .Meaning {
   color: black;
-  line-height: 1;
+  line-height: 1.5;
 }
 .Definitions {
-  color: brown;
+  color: black;
   font-size: 20px;
-  text-align: justify;
-  padding: 0 35px;
+  padding: 0 20px;
+  text-align: left;
 }
 .Word {
   font-size: 50px;
   line-height: 2px;
   font-weight: 900;
   text-transform: capitalize;
+  margin-bottom: 50px;
+  text-decoration: underline;
 }
 .Dictionary section {
   background: white;
@@ -46,20 +48,28 @@
   display: inline-block;
 }
 .PartOfSpeech {
-  border: 1px solid grey;
   text-align: center;
   display: inline-block;
   padding: 4px 20px;
-  margin-bottom: -5px;
+  margin: 10px;
   text-transform: capitalize;
 }
 .SynonymWords {
   margin: 0 10px;
   line-height: 1.5;
+  color: rgb(230, 21, 139);
+  font-size: 20px;
 }
 .Example {
   position: relative;
-  top: -10px;
-  color: rgb(73, 72, 72);
+  top: -5px;
+  color: rgb(127, 124, 124);
   font-weight: 450;
+  font-style: italic;
+}
+.Photos img {
+  margin-bottom: 10px;
+}
+.Photos {
+  margin-top: 50px;
 }

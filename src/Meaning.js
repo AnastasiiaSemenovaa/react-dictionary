@@ -6,21 +6,23 @@ export default function Meaning(props) {
     <div className="Meaning">
       {" "}
       {props.meaning.synonyms.map((values, index) => {
-        if (index > 6) return <></>;
-        return <span className="SynonymWords">{values}</span>;
+        if (index > 5) return <></>;
+        return (
+          <span className="SynonymWords" key={index}>
+            {values}
+          </span>
+        );
       })}
       <br />
       <h3 className="PartOfSpeech">{props.meaning.partOfSpeech}</h3>
       {props.meaning.definitions.map(function (definition, index) {
         if (index > 2) return <></>;
         return (
-          <div key={index}>
-            <div className="Definitions">
-              <strong>Definition➡️ </strong>
-              {definition.definition}
-              <br />
-              <p className="Example">{definition.example} </p>
-            </div>
+          <div className="Definitions" key={index}>
+            <strong>➡️ </strong>
+            {definition.definition}
+            <br />
+            <p className="Example">{definition.example} </p>
           </div>
         );
       })}

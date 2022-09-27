@@ -14,7 +14,7 @@ export default function Dictionary() {
     axios.get(url).then(handleResponse);
 
     let photoKey = `563492ad6f91700001000001b57b8899f0a84e85b13ebfa1a1f7c743`;
-    let photoUrl = `https://api.pexels.com/v1/search/?page=2&per_page=1&query=${word}`;
+    let photoUrl = `https://api.pexels.com/v1/search/?page=2&per_page=3&query=${word}`;
     let headers = { Authorization: `Bearer ${photoKey}` };
     axios.get(photoUrl, { headers: headers }).then(handlePhotoSearch);
   }
