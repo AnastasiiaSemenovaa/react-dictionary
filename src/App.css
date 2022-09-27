@@ -13,3 +13,11 @@ footer {
 footer a {
   color: rgb(116, 22, 204);
 }
+@media (min-width: 300px) {
+  .App {
+    margin: 1px;
+  }
+  footer {
+    font-size: 10px;
+  }
+}
