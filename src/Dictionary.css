@@ -1,15 +1,12 @@
-.Results {
-  color: rgb(250, 22, 220);
-}
 .Meaning {
   color: black;
   line-height: 1.5;
+  border: 1px solid sandybrown;
 }
 .Definitions {
   color: black;
   font-size: 20px;
   padding: 0 20px;
-  text-align: left;
 }
 .Word {
   font-size: 50px;
@@ -17,7 +14,7 @@
   font-weight: 900;
   text-transform: capitalize;
   margin-bottom: 50px;
-  text-decoration: underline;
+  color: rgb(250, 22, 220);
 }
 .Dictionary section {
   background: white;
@@ -53,11 +50,13 @@
   padding: 4px 20px;
   margin: 10px;
   text-transform: capitalize;
+  text-decoration: underline;
+  color: rgb(206, 175, 1);
 }
 .SynonymWords {
   margin: 0 10px;
   line-height: 1.5;
-  color: rgb(230, 21, 139);
+  color: rgb(184, 8, 108);
   font-size: 20px;
 }
 .Example {
