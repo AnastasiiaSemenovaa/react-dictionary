@@ -3,7 +3,7 @@ import React from "react";
 export default function Photos(props) {
   if (props.photos) {
     return (
-      <div className="Photos">
+      <div className="Photos container-fluid">
         <div className="row">
           {props.photos.map(function (photo, index) {
             return (

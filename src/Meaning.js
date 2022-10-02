@@ -5,18 +5,20 @@ export default function Meaning(props) {
   return (
     <div className="Meaning">
       {" "}
-      {props.meaning.synonyms.map((values, index) => {
-        if (index > 5) return <></>;
-        return (
-          <span className="SynonymWords" key={index}>
-            {values}
-          </span>
-        );
-      })}
+      <div className="d-flex flex-column flex-sm-row">
+        {props.meaning.synonyms.map((values, index) => {
+          if (index > 5) return null;
+          return (
+            <p className="SynonymWords" key={index}>
+              {values}
+            </p>
+          );
+        })}
+      </div>
       <br />
       <h3 className="PartOfSpeech">{props.meaning.partOfSpeech}</h3>
       {props.meaning.definitions.map(function (definition, index) {
-        if (index > 2) return <></>;
+        if (index > 2) return null;
         return (
           <div className="Definitions" key={index}>
             <strong>➡️ </strong>
