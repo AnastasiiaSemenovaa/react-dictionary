@@ -7,7 +7,7 @@ export default function Meaning(props) {
       {" "}
       <div className="d-flex flex-column flex-sm-row">
         {props.meaning.synonyms.map((values, index) => {
-          if (index > 5) return null;
+          if (index > 4) return null;
           return (
             <p className="SynonymWords" key={index}>
               {values}

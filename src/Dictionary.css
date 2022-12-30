@@ -1,7 +1,6 @@
 .Meaning {
   color: black;
   line-height: 1.5;
-  border: 1px solid sandybrown;
 }
 .Definitions {
   color: black;
@@ -75,6 +74,7 @@
 @media (min-width: 300px) {
   .SynonymWords {
     font-size: 15px;
+    margin-top: 15px;
   }
   .Definitions {
     font-size: 15px;
@@ -82,14 +82,21 @@
     margin: 5px;
     padding: 0;
   }
+  .PartOfSpeech {
+    margin: -8px;
+  }
   .Dictionary h1 {
     font-size: 20px;
   }
   .Meaning {
-    margin: 10px;
+    margin-top: -25px;
+    line-height: 1.2;
   }
   .Dictionary section {
     padding: 20px;
     margin: 30px 50px;
+  }
+  .Photos {
+    width: "100";
   }
 }

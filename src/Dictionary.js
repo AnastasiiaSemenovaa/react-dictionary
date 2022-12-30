@@ -42,8 +42,16 @@ export default function Dictionary() {
           ></input>
         </form>
       </section>
-      <Results results={results} />
-      <Photos photos={photos} />
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <Results results={results} />
+          </div>
+          <div class="col-sm-6">
+            <Photos photos={photos} />
+          </div>{" "}
+        </div>
+      </div>
     </div>
   );
 }
